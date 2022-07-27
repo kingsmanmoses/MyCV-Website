@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
+
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* color: #fff; */
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+h1,
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+p {
+  /* color: #fff; */
+  opacity: 75%;
+  font-size: 1rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Cursor scroll-bar */
+::-webkit-scrollbar {
+  width: 10px;
+  background: #c1ceff;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  background: #282f4e;
+}
+/* For the navbar component */
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.brand-logo {
+  margin-top: 10px;
+}
+/* For the profile component */
+.me-card {
+  font-weight: 500;
+  margin-left: -15px !important;
+}
+.flex-container {
+  font-size: 1.3rem;
+  margin-left: -13px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.icon {
+  cursor: pointer;
+  margin-top: 8px;
+  margin-right: -15px;
+  font-size: 1.5rem;
+}
+
+/* For the About component */
+.header-me {
+  border-bottom: 1px solid blue;
+}
+.about-me {
+  font-weight: 500;
+  margin-top: 12px !important;
+}
+/* For the Skills component */
+.perct {
+  color: blue;
+}
+/* For the Experience component */
+.exp-me {
+  margin-top: 10px;
+}
